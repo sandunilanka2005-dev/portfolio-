@@ -1,0 +1,29 @@
+[16:08, 20/04/2026] Lanka: <!DOCTYPE html>
+<head>
+    <title>form</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <h1>Contact form</h1>
+    <form onsubmit="sendform(event)">
+        <lable for="name">Name:</lable><br>
+        <input type="text" id="name" name="name"><br>
+        
+        <lable for="email">Email:</lable><br>
+        <input type="email" id="email" name="email"><br>
+
+        <lable for="subject">Subject:</lable><br>
+        <input type="text" id="subject" name="subject"><br>
+
+        <lable for="message">Message:</lable><br>
+        <textarea id="message" rows="8" cols="20"></textarea><br>
+
+        <button type="submit">Submit</button>
+    </form>
+    <p id="output"></p>
+    <a href="index.html">Home page</a><br>
+    <a href="blog.html">Blog page</a>
+</body>
+<script src="script.js"></script>
+</html>
+

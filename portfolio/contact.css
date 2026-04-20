@@ -1,0 +1,37 @@
+body{
+    background-color:lightpink;
+   
+}
+h1{
+   text-align: center;
+   text-decoration:aqua;
+   color: darkblue;
+}
+form {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border none;
+
+}
+@media (max-width: 600px) {
+    h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+    body{
+        padding: 10px;
+    }
+}
